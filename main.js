@@ -35,7 +35,7 @@ async function bubbleSort() {
                     items[j].style.backgroundColor = "red";
                     items[j + 1].style.backgroundColor = "red";
                     linkElement.href = linkElement.href;
-                    await delay(100);
+                    await delay(20);
                     items[j].style.backgroundColor = "black";
                     items[j + 1].style.backgroundColor = "black";
                 }
